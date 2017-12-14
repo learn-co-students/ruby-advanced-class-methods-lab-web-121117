@@ -46,7 +46,7 @@ class Song
   def self.alphabetical
     @@all.sort_by{|song_instance| song_instance.name}
   end
-  # initializes a song and artist_name based on the filename format (FAILED - 1)
+
   def self.new_from_filename(filename)
     array = filename.split(/ - |\./)
     song = self.create_by_name(array[1])
@@ -64,5 +64,5 @@ class Song
   def self.destroy_all
     @@all.clear
   end
-  # binding.pry
+
 end
