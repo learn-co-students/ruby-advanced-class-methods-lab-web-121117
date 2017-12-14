@@ -2,9 +2,9 @@
 
 ## Objectives
 
-1. Build custom class constructors.
-2. Build class finders.
-3. Build class operators.
+1. Build custom class constructors!
+2. Build class finders!
+3. Build class operators!
 
 ## Instructions
 
