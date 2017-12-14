@@ -64,9 +64,3 @@ class Song
     self.class.all << self
   end
 end
-
-# song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
-# puts song.artist_name
-# song = Song.create_from_filename("Thundercat - For Love I Come.mp3")
-# puts song.artist_name
-# puts song.name
